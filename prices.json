@@ -4,19 +4,159 @@
   "region": "UA",
   "note": "Цены официальных витрин для региона Украина. Файл ведёт Афина; приложение обновляет раздел «Цены подписок» по этому файлу раз в сутки. price = null означает: цена в работе, Афина проверяет по официальной витрине.",
   "items": [
-    {"id": "chatgpt-plus", "service": "ChatGPT", "plan": "Plus", "price_month": 20, "currency": "USD", "price_year": null, "note": "", "checked": "2026-11-13", "url": "https://chatgpt.com/pricing"},
-    {"id": "claude-pro", "service": "Claude (Anthropic)", "plan": "Pro", "price_month": null, "currency": "USD", "price_year": null, "note": "", "checked": null, "url": "https://claude.com/pricing"},
-    {"id": "claude-max", "service": "Claude (Anthropic)", "plan": "Max", "price_month": null, "currency": "USD", "price_year": null, "note": "Два уровня Max, цена от минимальной.", "checked": null, "url": "https://claude.com/pricing"},
-    {"id": "gemini-ai-pro", "service": "Gemini (Google)", "plan": "AI Pro", "price_month": 909.99, "currency": "UAH", "price_year": null, "note": "По акциям и персональным предложениям бывает 229,99 ₴/мес.", "checked": "2026-11-13", "url": "https://gemini.google/subscriptions"},
-    {"id": "gemini-ai-ultra", "service": "Gemini (Google)", "plan": "AI Ultra", "price_month": null, "currency": "UAH", "price_year": null, "note": "", "checked": null, "url": "https://gemini.google/subscriptions"},
-    {"id": "supergrok", "service": "SuperGrok (xAI)", "plan": "SuperGrok", "price_month": null, "currency": "USD", "price_year": null, "note": "", "checked": null, "url": "https://x.ai/grok"},
-    {"id": "copilot", "service": "Microsoft Copilot", "plan": "Copilot", "price_month": null, "currency": "USD", "price_year": null, "note": "", "checked": null, "url": "https://www.microsoft.com/microsoft-copilot"},
-    {"id": "kimi", "service": "Kimi (Moonshot)", "plan": "Платный", "price_month": null, "currency": "USD", "price_year": null, "note": "", "checked": null, "url": "https://www.kimi.com"},
-    {"id": "perplexity-pro", "service": "Perplexity", "plan": "Pro", "price_month": null, "currency": "USD", "price_year": null, "note": "", "checked": null, "url": "https://www.perplexity.ai/pro"},
-    {"id": "mistral", "service": "Mistral Le Chat", "plan": "Pro", "price_month": null, "currency": "USD", "price_year": null, "note": "", "checked": null, "url": "https://mistral.ai/pricing"},
-    {"id": "poe", "service": "Poe", "plan": "Подписка", "price_month": null, "currency": "USD", "price_year": null, "note": "", "checked": null, "url": "https://poe.com"},
-    {"id": "deepseek", "service": "DeepSeek", "plan": "API", "price_month": null, "currency": "USD", "price_year": null, "note": "Подписки нет: только оплата API по токенам.", "checked": null, "url": "https://www.deepseek.com"},
-    {"id": "qwen", "service": "Qwen (Alibaba)", "plan": "Платный", "price_month": 20, "currency": "USD", "price_year": null, "note": "Есть бесплатный тариф. Цена — со слов владельца, сверка по витрине при первом мониторинге.", "checked": null, "url": "https://chat.qwen.ai"},
-    {"id": "muse", "service": "Muse (Meta)", "plan": "Подписка", "price_month": null, "currency": "USD", "price_year": null, "note": "Официально в Украине не поддерживается.", "checked": null, "url": "https://muse.ai"}
+    {
+      "id": "muse",
+      "service": "Muse (Meta)",
+      "plan": "Подписка",
+      "price_month": null,
+      "currency": "USD",
+      "price_year": null,
+      "note": "Официально в Украине не поддерживается.",
+      "checked": null,
+      "url": "https://muse.ai"
+    },
+    {
+      "id": "chatgpt-plus",
+      "service": "ChatGPT",
+      "plan": "Plus",
+      "price_month": 20,
+      "currency": "USD",
+      "price_year": null,
+      "note": "",
+      "checked": "2026-11-13",
+      "url": "https://chatgpt.com/pricing"
+    },
+    {
+      "id": "claude-pro",
+      "service": "Claude (Anthropic)",
+      "plan": "Pro",
+      "price_month": null,
+      "currency": "USD",
+      "price_year": null,
+      "note": "",
+      "checked": null,
+      "url": "https://claude.com/pricing"
+    },
+    {
+      "id": "claude-max",
+      "service": "Claude (Anthropic)",
+      "plan": "Max",
+      "price_month": null,
+      "currency": "USD",
+      "price_year": null,
+      "note": "Два уровня Max, цена от минимальной.",
+      "checked": null,
+      "url": "https://claude.com/pricing"
+    },
+    {
+      "id": "gemini-ai-pro",
+      "service": "Gemini (Google)",
+      "plan": "AI Pro",
+      "price_month": 909.99,
+      "currency": "UAH",
+      "price_year": null,
+      "note": "По акциям и персональным предложениям бывает 229,99 ₴/мес.",
+      "checked": "2026-11-13",
+      "url": "https://gemini.google/subscriptions"
+    },
+    {
+      "id": "gemini-ai-ultra",
+      "service": "Gemini (Google)",
+      "plan": "AI Ultra",
+      "price_month": null,
+      "currency": "UAH",
+      "price_year": null,
+      "note": "",
+      "checked": null,
+      "url": "https://gemini.google/subscriptions"
+    },
+    {
+      "id": "supergrok",
+      "service": "SuperGrok (xAI)",
+      "plan": "SuperGrok",
+      "price_month": null,
+      "currency": "USD",
+      "price_year": null,
+      "note": "",
+      "checked": null,
+      "url": "https://x.ai/grok"
+    },
+    {
+      "id": "copilot",
+      "service": "Microsoft Copilot",
+      "plan": "Copilot",
+      "price_month": null,
+      "currency": "USD",
+      "price_year": null,
+      "note": "",
+      "checked": null,
+      "url": "https://www.microsoft.com/microsoft-copilot"
+    },
+    {
+      "id": "kimi",
+      "service": "Kimi (Moonshot)",
+      "plan": "Платный",
+      "price_month": null,
+      "currency": "USD",
+      "price_year": null,
+      "note": "",
+      "checked": null,
+      "url": "https://www.kimi.com"
+    },
+    {
+      "id": "perplexity-pro",
+      "service": "Perplexity",
+      "plan": "Pro",
+      "price_month": null,
+      "currency": "USD",
+      "price_year": null,
+      "note": "",
+      "checked": null,
+      "url": "https://www.perplexity.ai/pro"
+    },
+    {
+      "id": "mistral",
+      "service": "Mistral Le Chat",
+      "plan": "Pro",
+      "price_month": null,
+      "currency": "USD",
+      "price_year": null,
+      "note": "",
+      "checked": null,
+      "url": "https://mistral.ai/pricing"
+    },
+    {
+      "id": "poe",
+      "service": "Poe",
+      "plan": "Подписка",
+      "price_month": null,
+      "currency": "USD",
+      "price_year": null,
+      "note": "",
+      "checked": null,
+      "url": "https://poe.com"
+    },
+    {
+      "id": "deepseek",
+      "service": "DeepSeek",
+      "plan": "API",
+      "price_month": null,
+      "currency": "USD",
+      "price_year": null,
+      "note": "Подписки нет: только оплата API по токенам.",
+      "checked": null,
+      "url": "https://www.deepseek.com"
+    },
+    {
+      "id": "qwen",
+      "service": "Qwen (Alibaba)",
+      "plan": "Платный",
+      "price_month": 20,
+      "currency": "USD",
+      "price_year": null,
+      "note": "Есть бесплатный тариф. Цена — со слов владельца, сверка по витрине при первом мониторинге.",
+      "checked": null,
+      "url": "https://chat.qwen.ai"
+    }
   ]
 }
