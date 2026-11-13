@@ -13,7 +13,8 @@
       "price_year": null,
       "note": "Официально в Украине не поддерживается.",
       "checked": null,
-      "url": "https://muse.ai"
+      "url": "https://muse.ai",
+      "logo": "https://www.google.com/s2/favicons?domain=muse.ai&sz=128"
     },
     {
       "id": "chatgpt-plus",
@@ -24,7 +25,8 @@
       "price_year": null,
       "note": "",
       "checked": "2026-11-13",
-      "url": "https://chatgpt.com/pricing"
+      "url": "https://chatgpt.com/pricing",
+      "logo": "https://www.google.com/s2/favicons?domain=chatgpt.com&sz=128"
     },
     {
       "id": "claude-pro",
@@ -35,7 +37,8 @@
       "price_year": null,
       "note": "",
       "checked": null,
-      "url": "https://claude.com/pricing"
+      "url": "https://claude.com/pricing",
+      "logo": "https://www.google.com/s2/favicons?domain=claude.com&sz=128"
     },
     {
       "id": "claude-max",
@@ -46,7 +49,8 @@
       "price_year": null,
       "note": "Два уровня Max, цена от минимальной.",
       "checked": null,
-      "url": "https://claude.com/pricing"
+      "url": "https://claude.com/pricing",
+      "logo": "https://www.google.com/s2/favicons?domain=claude.com&sz=128"
     },
     {
       "id": "gemini-ai-pro",
@@ -57,7 +61,8 @@
       "price_year": null,
       "note": "По акциям и персональным предложениям бывает 229,99 ₴/мес.",
       "checked": "2026-11-13",
-      "url": "https://gemini.google/subscriptions"
+      "url": "https://gemini.google/subscriptions",
+      "logo": "https://www.google.com/s2/favicons?domain=gemini.google.com&sz=128"
     },
     {
       "id": "gemini-ai-ultra",
@@ -68,7 +73,8 @@
       "price_year": null,
       "note": "",
       "checked": null,
-      "url": "https://gemini.google/subscriptions"
+      "url": "https://gemini.google/subscriptions",
+      "logo": "https://www.google.com/s2/favicons?domain=gemini.google.com&sz=128"
     },
     {
       "id": "supergrok",
@@ -79,7 +85,8 @@
       "price_year": null,
       "note": "",
       "checked": null,
-      "url": "https://x.ai/grok"
+      "url": "https://x.ai/grok",
+      "logo": "https://www.google.com/s2/favicons?domain=x.ai&sz=128"
     },
     {
       "id": "copilot",
@@ -90,7 +97,8 @@
       "price_year": null,
       "note": "",
       "checked": null,
-      "url": "https://www.microsoft.com/microsoft-copilot"
+      "url": "https://www.microsoft.com/microsoft-copilot",
+      "logo": "https://www.google.com/s2/favicons?domain=copilot.microsoft.com&sz=128"
     },
     {
       "id": "kimi",
@@ -101,7 +109,8 @@
       "price_year": null,
       "note": "",
       "checked": null,
-      "url": "https://www.kimi.com"
+      "url": "https://www.kimi.com",
+      "logo": "https://www.google.com/s2/favicons?domain=kimi.com&sz=128"
     },
     {
       "id": "perplexity-pro",
@@ -112,7 +121,8 @@
       "price_year": null,
       "note": "",
       "checked": null,
-      "url": "https://www.perplexity.ai/pro"
+      "url": "https://www.perplexity.ai/pro",
+      "logo": "https://www.google.com/s2/favicons?domain=perplexity.ai&sz=128"
     },
     {
       "id": "mistral",
@@ -123,7 +133,8 @@
       "price_year": null,
       "note": "",
       "checked": null,
-      "url": "https://mistral.ai/pricing"
+      "url": "https://mistral.ai/pricing",
+      "logo": "https://www.google.com/s2/favicons?domain=mistral.ai&sz=128"
     },
     {
       "id": "poe",
@@ -134,7 +145,8 @@
       "price_year": null,
       "note": "",
       "checked": null,
-      "url": "https://poe.com"
+      "url": "https://poe.com",
+      "logo": "https://www.google.com/s2/favicons?domain=poe.com&sz=128"
     },
     {
       "id": "deepseek",
@@ -145,7 +157,8 @@
       "price_year": null,
       "note": "Подписки нет: только оплата API по токенам.",
       "checked": null,
-      "url": "https://www.deepseek.com"
+      "url": "https://www.deepseek.com",
+      "logo": "https://www.google.com/s2/favicons?domain=deepseek.com&sz=128"
     },
     {
       "id": "qwen",
@@ -156,7 +169,8 @@
       "price_year": null,
       "note": "Есть бесплатный тариф. Цена — со слов владельца, сверка по витрине при первом мониторинге.",
       "checked": null,
-      "url": "https://chat.qwen.ai"
+      "url": "https://chat.qwen.ai",
+      "logo": "https://www.google.com/s2/favicons?domain=chat.qwen.ai&sz=128"
     }
   ]
 }
